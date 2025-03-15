@@ -1,0 +1,32 @@
+.main-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+.main-content h1, 
+.main-content h2 {
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.main-content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.main-content ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.main-content ul li {
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    text-align: center;
+}

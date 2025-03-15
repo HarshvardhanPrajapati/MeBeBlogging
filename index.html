@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeBeBlogging</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+</head>
+
+<body>
+    <div class="nav_wrapper">
+        <nav class="navigation max-width-1">
+            <div class="left">
+                <span id="logo">MeBeBlogging</span>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <button id="BlogAddButton">Add blog</button>
+                <form id="searchForm" onsubmit="return false;">
+                    <input placeholder="Search item" id="searchbar" type="text" name="query">
+                </form>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <div class="main-content">
+
+        <div class="Form max-width-2">
+            <form id="form">
+                <h3>Write your blog</h3>
+                <input type="text" placeholder="Add title to your blog" id="heading">
+                <textarea id="blogcontent" name="content"  placeholder="Enter you blog"></textarea>
+                <div class="image-upload">
+                    <input type="file" id="blogimage" accept="image/*" style="display: none;">
+                    <label for="blogimage" class="image-drop-zone">
+                        Select Image or Drag Here
+                    </label>
+                </div>
+                <button id="submitbtn" type="submit">Publish</button>
+            </form>
+        </div>
+
+
+
+
+
+        <div class="content max-width-2 searchable">
+            <div class="contentleft">
+                <h3>The Power of Blogging</h3>
+                <p>Blogging is a powerful tool for sharing ideas, expressing creativity, and building a community. It
+                    allows
+                    individuals to voice their opinions, educate others, and even generate income through valuable
+                    content.
+                </p>
+            </div>
+            <div class="contentright">
+                <img src="img/vecteezy_blogging-or-blog-creative-concept-with-laptop-computer_.jpg"
+                    alt="blogging-power.jpg">
+            </div>
+        </div>
+
+
+
+        <div class="content max-width-2 searchable">
+            <div class="contentleft">
+                <h3>Writing Engaging Content</h3>
+                <p>Crafting engaging content is essential for a successful blog. Using compelling storytelling, clear
+                    language, and valuable insights can keep readers coming back for more.</p>
+            </div>
+            <div class="contentright">
+                <img src="img/vecteezy_blogging-or-blog-creative-concept-with-laptop-computer_.jpg"
+                    alt="writing-content.jpg">
+            </div>
+        </div>
+
+
+
+        <div class="content max-width-2 searchable">
+            <div class="contentleft">
+                <h3>SEO for Bloggers</h3>
+                <p>Search Engine Optimization (SEO) helps blogs reach a wider audience. Using relevant keywords, proper
+                    formatting, and link-building techniques can significantly improve a blog’s visibility online.</p>
+            </div>
+            <div class="contentright">
+                <img src="img/vecteezy_blogging-or-blog-creative-concept-with-laptop-computer_.jpg" alt="seo-blog.jpg">
+            </div>
+        </div>
+
+
+
+        <div class="content max-width-2 searchable">
+            <div class="contentleft">
+                <h3>Monetizing Your Blog</h3>
+                <p>There are various ways to monetize a blog, such as affiliate marketing, sponsored posts, and ad
+                    revenue.
+                    With the right strategies, blogging can turn into a profitable venture.</p>
+            </div>
+            <div class="contentright">
+                <img src="img/vecteezy_blogging-or-blog-creative-concept-with-laptop-computer_.jpg"
+                    alt="monetizing-blog.jpg">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="footer">
+        <ul class="footerlist">
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Terms and Conditions</a></li>
+            <li><a href="">Career</a></li>
+            <li><a href="">How to use</a></li>
+            <li><a href="">License</a></li>
+        </ul>
+
+        <div class="copyrighttext">
+            &copy; 2025 MeBeBlogging. All rights reserved.
+        </div>
+
+    </div>
+
+
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>
